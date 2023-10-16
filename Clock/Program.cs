@@ -10,6 +10,9 @@ namespace Clock
     {
         static void Main(string[] args)
         {
+            Clock ora = new Clock(12, 30, 45, "UTC+2", true);
+            ora.DisplayTime();
+            Console.ReadLine();
         }
     }
 }
