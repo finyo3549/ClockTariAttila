@@ -37,7 +37,7 @@ namespace Clock
             }
             if  (AlarmHour == hour) {
 
-                if (AlarmMinute < minute)
+                if (AlarmMinute <= minute)
                 {
                     return true;
                 }
